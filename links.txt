@@ -1,0 +1,13 @@
+links.txt
+Created Wed Aug 16 10:30:08 AKDT 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+LibreOffice related links
+
+
+Links
+=====
+LibreOffice - Free Office Suite
+https://www.libreoffice.org/
+
