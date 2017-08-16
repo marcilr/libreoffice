@@ -7,8 +7,11 @@ Convert xlsx to csv in linux command line
 
 
 You can do this with LibreOffice:
+  $ libreoffice --headless --convert-to csv $filename --outdir $outdir
 
-$ libreoffice --headless --convert-to csv $filename --outdir $outdir
+For multiple files:
+  $ for i in *.xlsx; do libreoffice --headless --convert-to csv "$i" ; done
+
 
 --stackoverflow.com/questions/10557360/convert-xlsx-to-csv-in-linux-command-line
 
