@@ -1,0 +1,19 @@
+excel-to-csv.txt
+Created Wed Aug 16 10:33:06 AKDT 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Convert xlsx to csv in linux command line
+
+
+You can do this with LibreOffice:
+
+$ libreoffice --headless --convert-to csv $filename --outdir $outdir
+
+--stackoverflow.com/questions/10557360/convert-xlsx-to-csv-in-linux-command-line
+
+
+Links
+=====
+Convert xlsx to csv in linux command line
+https://stackoverflow.com/questions/10557360/convert-xlsx-to-csv-in-linux-command-line
