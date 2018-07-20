@@ -1,0 +1,53 @@
+INSTALL
+Created Fri Jul 20 10:38:29 AKDT 2018
+by Raymond E. Marcil <rmarcil@gci.com>
+
+
+Installation of LibreOffice 6.0.5 x86-64 on GCI NIT
+macBook Pro (15-inch, 2016) running
+macOS Sierra v10.12.6
+
+
+OS X
+
+First check the system requirements[1] before installing LibreOffice on macOS.
+
+o Download the .DMG file from the download page.[2]
+o Open the .DMG file by double-clicking on it.
+
+o An installation window appears: drag and drop the LibreOffice icon into
+  the Applications folder. You may be required to enter your administrator
+  password.
+
+o The files are copied over and a progress bar shows when the installation
+   is complete.
+
+o If needed, you may now download and install the language pack(s) of your
+  choice and built-in help by downloading the .DMG file of your choice.
+  The installation steps are the same than the ones described above but you
+  must have downloaded the main LibreOffice .DMG file beforehand.
+
+Users of macOS 10.8 and later versions: if you are running macOS 10.8
+(Mountain Lion), you may run into a problem with Apple's new Gatekeeper.
+A solution is: the first time you run LibreOffice, right-click
+(control-click) the LibreOffice.app icon and choose Open from the
+context menu.  You will be asked if you really want to start the
+program – confirm this to launch it.  For additional details, you may
+find this article[3] helpful.
+
+
+Links
+=====
+[1] system requirements
+    https://www.libreoffice.org/get-help/system-requirements/
+
+[2] download page
+    https://www.libreoffice.org/download/download/
+
+[3] this article
+    http://www.italovignoli.org/2012/08/libreoffice-and-mountain-lion-macos-x-10-8/
+
+Installation Instructions
+LibreOffice
+The Document Foundation
+https://www.libreoffice.org/get-help/install-howto/os-x/
