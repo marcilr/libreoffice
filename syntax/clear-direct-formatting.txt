@@ -1,0 +1,23 @@
+clear-direct-formatting.txt
+Created Tue Apr 16 07:43:48 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+To clear direct formatting, like text highlighting and such, for 
+entire page:
+
+1. Press Ctrl+A to select the whole text
+2. Press Ctrl+M to clear direct formatting
+
+i.e.:
+  Ctrl + A
+  Ctrl + M
+
+
+--help.libreoffice.org/Common/Undoing_Direct_Formatting_for_a_Document
+
+
+Links
+=====
+Undoing Direct Formatting for a Document
+https://help.libreoffice.org/Common/Undoing_Direct_Formatting_for_a_Document
