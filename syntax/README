@@ -5,6 +5,20 @@ Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+clear-direct-formatting.txt
+  To clear direct formatting, like text highlighting and such, for
+  entire page:
+
+  1. Press Ctrl+A to select the whole text
+  2. Press Ctrl+M to clear direct formatting
+
+  i.e.:
+    Ctrl + A
+    Ctrl + M
+
+  --Undoing Direct Formatting for a Document
+    https://help.libreoffice.org/Common/Undoing_Direct_Formatting_for_a_Document
+
 excel-to-csv.txt
   Convert xlsx to csv in linux command line
   https://stackoverflow.com/questions/10557360/convert-xlsx-to-csv-in-linux-command-line
