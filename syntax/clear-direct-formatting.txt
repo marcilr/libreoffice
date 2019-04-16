@@ -8,6 +8,7 @@ entire page:
 
 1. Press Ctrl+A to select the whole text
 2. Press Ctrl+M to clear direct formatting
+   Format > Clear Direct Formatting
 
 i.e.:
   Ctrl + A
