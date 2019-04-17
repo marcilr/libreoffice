@@ -23,6 +23,13 @@ An overview of all necessary installation steps\
 Great details on this page.
 https://api.libreoffice.org/docs/install.html
 
+
+Interface-oriented programming in OpenOffice / LibreOffice :
+automate your office tasks with Python Macros
+Dec 6, 2015
+Definitely selects python as language of choose.
+http://christopher5106.github.io/office/2015/12/06/openoffice-libreoffice-automate-your-office-tasks-with-python-macros.html
+
 LibreOffice 6.2 API Documentation
 https://api.libreoffice.org/
 
