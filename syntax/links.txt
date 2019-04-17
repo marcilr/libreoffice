@@ -26,7 +26,7 @@ https://help.libreoffice.org/Calc/Importing_and_Exporting_Text_Files
 Is it possible to format a LibreOffice spreadsheet using a shell script?
 https://ask.libreoffice.org/en/question/75384/is-it-possible-to-format-a-libreoffice-spreadsheet-using-a-shell-script/
 
-Starting the LibreOffice Software With Parameters
+Starting the LibreOffice Software With Parameters                         <===
 https://help.libreoffice.org/Common/Starting_the_Software_With_Parameters
 
 Synchronize style sheets across documents
