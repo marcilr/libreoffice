@@ -17,5 +17,12 @@ automate your office tasks with Python Macros
 Dec 6, 2015
 http://christopher5106.github.io/office/2015/12/06/openoffice-libreoffice-automate-your-office-tasks-with-python-macros.html
 
+Calc/API/Programming
+https://wiki.openoffice.org/wiki/Calc/API/Programming
+
 First play with the Python shell to get familiar
 http://christopher5106.github.io/office/2015/12/06/openoffice-libreoffice-automate-your-office-tasks-with-python-macros.html
+
+Uno
+https://wiki.openoffice.org/wiki/Uno
+
