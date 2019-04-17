@@ -8,6 +8,11 @@ Syntax related links
 
 Links
 =====
+Command-line arguments in LibreOffice
+04 December, 2016
+Some useful details here
+https://dnimruoynepo.blogspot.com/2016/12/command-line-arguments-in-libreoffice.html#control
+
 convert-to command line parameter
 Useful synyax here
 LibreOffice
