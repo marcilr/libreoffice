@@ -23,6 +23,10 @@ https://wiki.openoffice.org/wiki/Calc/API/Programming
 First play with the Python shell to get familiar
 http://christopher5106.github.io/office/2015/12/06/openoffice-libreoffice-automate-your-office-tasks-with-python-macros.html
 
+HowTo "Hello World" Python macro for Calc
+Postby Webtest » Sun Sep 22, 2013 2:15 am
+https://forum.openoffice.org/en/forum/viewtopic.php?f=5&t=64465
+
 Uno
 https://wiki.openoffice.org/wiki/Uno
 
