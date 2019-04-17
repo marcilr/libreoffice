@@ -1,0 +1,6 @@
+scripts.txt
+Created Wed Apr 17 13:17:09 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Scripts
