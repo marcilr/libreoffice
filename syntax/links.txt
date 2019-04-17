@@ -17,3 +17,15 @@ https://help.libreoffice.org/Calc/Importing_and_Exporting_Text_Files
 Is it possible to format a LibreOffice spreadsheet using a shell script?
 https://ask.libreoffice.org/en/question/75384/is-it-possible-to-format-a-libreoffice-spreadsheet-using-a-shell-script/
 
+unoconv
+Universal Office Converter - Convert between any document
+format supported by LibreOffice/OpenOffice.
+Universal Office Converter (unoconv) is a command line tool to
+convert any document format that LibreOffice can import to any
+document format that LibreOffice can export.  It makes use of
+the LibreOffice’s UNO bindings for non-interactive conversion
+of documents.
+For practical reasons we mention LibreOffice, but OpenOffice is
+supported by unoconv as well.
+http://dag.wieers.com/home-made/unoconv/
+https://github.com/unoconv/unoconv
