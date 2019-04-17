@@ -11,6 +11,7 @@ Links
 Installation Guide
 An overview of all necessary installation steps\
 (e.g. environment variables) to use LibreOffice SDK.
+Great details on this page.
 https://api.libreoffice.org/docs/install.html
 
 LibreOffice 6.2 API Documentation
