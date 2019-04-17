@@ -8,3 +8,6 @@ LibreOffice API related links
 
 Links
 =====
+LibreOffice 6.2 API Documentation
+https://api.libreoffice.org/
+
