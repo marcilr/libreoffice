@@ -34,4 +34,13 @@ Help > About LibreOffice
   Locale: en-US (en_US.utf8); Calc: group
 click Close
 
-Website: https://www.libreoffice.org/
+
+
+Links
+=====
+LibreOffice
+https://www.libreoffice.org/
+
+Libreoffice SDK - Ask Ubuntu
+Has: sudo apt-get install libreoffice-dev*
+https://askubuntu.com/questions/430393/libreoffice-sdk
