@@ -19,6 +19,10 @@ clear-direct-formatting.txt
   --Undoing Direct Formatting for a Document
     https://help.libreoffice.org/Common/Undoing_Direct_Formatting_for_a_Document
 
+csv-to-excel.txt
+  Convert csv to excel file
+  libreoffice --headless --convert-to xlsx <file.csv>
+
 excel-to-csv.txt
   Convert xlsx to csv in linux command line
   https://stackoverflow.com/questions/10557360/convert-xlsx-to-csv-in-linux-command-line
