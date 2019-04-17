@@ -5,6 +5,9 @@ Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+api/
+  LibreOffice API
+
 INSTALL
   Installation of LibreOffice 6.0.5 x86-64 on GCI NIT
   macBook Pro (15-inch, 2016) running
