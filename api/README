@@ -6,7 +6,12 @@ by Raymond E. Marcil <marcilr@gmail.com>
 Filelist
 ========
 INSTALL
-  Installation of LibreOffice API
+  Installation of LibreOffice API:
+  1. Check current LibreOffice version installed under
+     Debian 9.8 amd64
+  2. Install Libreoffice SDK
+  3. Install Suggested packages
+  4. JDK (1.5 or higher) required
 
 api.txt
   LibreOffie API
