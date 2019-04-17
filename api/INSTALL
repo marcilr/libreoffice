@@ -1,0 +1,37 @@
+INSTALL
+Created Wed Apr 17 09:52:38 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Installation of LibreOffice API
+
+
+Check current LibreOffice version installed under
+Debian 9.8 amd64:
+
+$ dpkg -l | grep libre
+...
+ii  libreoffice                           1:5.2.7-1+deb9u5                  amd64        office productivity suite (metapackage)
+ii  libreoffice-avmedia-backend-gstreamer 1:5.2.7-1+deb9u5                  amd64        GStreamer backend for LibreOffice
+ii  libreoffice-base                      1:5.2.7-1+deb9u5                  amd64        office productivity suite -- database
+ii  libreoffice-base-core                 1:5.2.7-1+deb9u5                  amd64        office productivity suite -- shared library
+ii  libreoffice-base-drivers              1:5.2.7-1+deb9u5                  amd64        Database connectivity drivers for LibreOffice
+ii  libreoffice-calc                      1:5.2.7-1+deb9u5                  amd64        office productivity suite -- spreadsheet
+ii  libreoffice-common                    1:5.2.7-1+deb9u5                  all          office productivity suite -- arch-independent files
+ii  libreoffice-core                      1:5.2.7-1+deb9u5                  amd64        office productivity suite -- arch-dependent files
+ii  libreoffice-draw                      1:5.2.7-1+deb9u5                  amd64        office productivity suite -- drawing
+ii  libreoffice-impress                   1:5.2.7-1+deb9u5                  amd64        office productivity suite -- presentation
+ii  libreoffice-java-common               1:5.2.7-1+deb9u5                  all          office productivity suite -- arch-independent Java support files
+...
+$
+
+In LibreOffice calc get version:
+$ libreoffice -calc
+Help > About LibreOffice
+  Version: 5.2.7.2
+  Build ID: 1:5.2.7-1+deb9u5
+  CPU Threads: 1; OS Version: Linux 4.9; UI Render: default; VCL: x11; 
+  Locale: en-US (en_US.utf8); Calc: group
+click Close
+
+Website: https://www.libreoffice.org/
