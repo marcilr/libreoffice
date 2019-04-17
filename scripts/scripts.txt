@@ -51,6 +51,15 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> import uno
 
 
+>>> help()
+help> modules
+...
+BaseHTTPServer
+...
+zlib
+help> 
+
+No uno module listed.
 
 
 
