@@ -1,0 +1,19 @@
+links.txt
+Created Wed Apr 17 13:19:25 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Script related links
+
+
+Links
+=====
+Interface-oriented programming in OpenOffice / LibreOffice :
+automate your office tasks with Python Macros
+Dec 6, 2015
+http://christopher5106.github.io/office/2015/12/06/openoffice-libreoffice-automate-your-office-tasks-with-python-macros.html
+
+automate your office tasks with Python Macros
+Dec 6, 2015
+http://christopher5106.github.io/office/2015/12/06/openoffice-libreoffice-automate-your-office-tasks-with-python-macros.html
+
