@@ -41,8 +41,29 @@ $
 
 Python-UNO package is installed already.
 
+3. Install uno packages:
+unoconv - converter between LibreOffice document formats
+uno-libs3 - LibreOffice UNO runtime environment -- public shared libraries
 
-2. Test python shell:
+$ sudo aptitude install unoconv uno-libs3
+
+Check in python:
+$ python
+Python 2.7.13 (default, Sep 26 2018, 18:42:22) 
+[GCC 6.3.0 20170516] on linux2
+>>> help()
+help> modules
+BaseHTTPServer
+...
+zlib
+help> quit
+>>> exit()
+$
+
+NOTE: No uno listed under modules.
+
+
+4. Test python shell:
 $ python
 Python 2.7.13 (default, Sep 26 2018, 18:42:22) 
 [GCC 6.3.0 20170516] on linux2
