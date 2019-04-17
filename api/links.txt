@@ -8,6 +8,9 @@ LibreOffice API related links
 
 Links
 =====
+Developer's Guide Examples
+https://api.libreoffice.org/examples/DevelopersGuide/examples.html
+
 Examples
 https://api.libreoffice.org/examples/examples.html
 
