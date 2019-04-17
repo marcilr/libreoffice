@@ -40,5 +40,9 @@ Libreoffice SDK - Ask Ubuntu
 Has: sudo apt-get install libreoffice-dev*
 https://askubuntu.com/questions/430393/libreoffice-sdk
 
+programmatically open excel
+References VBScript
+https://ask.libreoffice.org/en/question/141023/programmatically-open-excel/
+
 Programming LibreOffice
 https://help.libreoffice.org/Common/Programming
