@@ -1,0 +1,31 @@
+csv-to-excel.txt
+Created Wed Apr 17 09:07:49 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Convert csv to excel file
+
+
+libreoffice --headless --convert-to xlsx <file.csv>
+
+
+Example
+=======
+$ libreoffice --headless --convert-to xlsx LDAPManager.csv
+convert /home/remarcil/git/dnr/projects/svn-to-git/svntom/\
+trunk/common/projects/LDAPManager/tmp/LDAPManager.csv \
+-> /home/remarcil/git/dnr/projects/svn-to-git/svntom/\
+trunk/common/projects/LDAPManager/tmp/LDAPManager.xlsx \
+using filter : Calc Office Open XML
+$ 
+
+$ libreoffice LDAPManager.xlsx
+
+Opens new xlsx file.
+
+
+
+Links
+=====
+how to convert csv to xlsx keeping column format as text
+https://ask.libreoffice.org/en/question/128376/how-to-convert-csv-to-xlsx-keeping-column-format-as-text/
