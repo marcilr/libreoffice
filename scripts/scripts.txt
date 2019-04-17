@@ -4,3 +4,23 @@ by Raymond E. Marcil <marcilr@gmail.com>
 
 
 Scripts
+
+
+1. First launch LibreOffice Calc (Calc for spreadsheet open
+documents) with an open socket to communicate with from the
+shell on your Mac OS :
+
+/Applications/LibreOffice.app/Contents/MacOS/soffice --calc \
+--accept="socket,host=localhost,port=2002;urp;StarOffice.ServiceManager"
+
+soffice: /usr/bin/soffice
+
+Hence:
+  $ /usr/bin/soffice --calc \
+  --accept="socket,host=localhost,port=2002;urp;StarOffice.ServiceManager"
+  $
+
+  NOTE: Only runs soffice does not load document.
+
+--First play with the Python shell to get familiar
+  http://christopher5106.github.io/office/2015/12/06/openoffice-libreoffice-automate-your-office-tasks-with-python-macros.html
