@@ -11,3 +11,6 @@ Links
 LibreOffice - Free Office Suite
 https://www.libreoffice.org/
 
+LibreOffice - Debian Wiki
+https://wiki.debian.org/LibreOffice
+
