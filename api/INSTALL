@@ -11,17 +11,17 @@ Debian 9.8 amd64:
 
 $ dpkg -l | grep libre
 ...
-ii  libreoffice                           1:5.2.7-1+deb9u5                  amd64        office productivity suite (metapackage)
-ii  libreoffice-avmedia-backend-gstreamer 1:5.2.7-1+deb9u5                  amd64        GStreamer backend for LibreOffice
-ii  libreoffice-base                      1:5.2.7-1+deb9u5                  amd64        office productivity suite -- database
-ii  libreoffice-base-core                 1:5.2.7-1+deb9u5                  amd64        office productivity suite -- shared library
-ii  libreoffice-base-drivers              1:5.2.7-1+deb9u5                  amd64        Database connectivity drivers for LibreOffice
-ii  libreoffice-calc                      1:5.2.7-1+deb9u5                  amd64        office productivity suite -- spreadsheet
-ii  libreoffice-common                    1:5.2.7-1+deb9u5                  all          office productivity suite -- arch-independent files
-ii  libreoffice-core                      1:5.2.7-1+deb9u5                  amd64        office productivity suite -- arch-dependent files
-ii  libreoffice-draw                      1:5.2.7-1+deb9u5                  amd64        office productivity suite -- drawing
-ii  libreoffice-impress                   1:5.2.7-1+deb9u5                  amd64        office productivity suite -- presentation
-ii  libreoffice-java-common               1:5.2.7-1+deb9u5                  all          office productivity suite -- arch-independent Java support files
+ii  libreoffice                           1:5.2.7-1+deb9u5   amd64   office productivity suite (metapackage)
+ii  libreoffice-avmedia-backend-gstreamer 1:5.2.7-1+deb9u5   amd64   GStreamer backend for LibreOffice
+ii  libreoffice-base                      1:5.2.7-1+deb9u5   amd64   office productivity suite -- database
+ii  libreoffice-base-core                 1:5.2.7-1+deb9u5   amd64   office productivity suite -- shared library
+ii  libreoffice-base-drivers              1:5.2.7-1+deb9u5   amd64   Database connectivity drivers for LibreOffice
+ii  libreoffice-calc                      1:5.2.7-1+deb9u5   amd64   office productivity suite -- spreadsheet
+ii  libreoffice-common                    1:5.2.7-1+deb9u5   all     office productivity suite -- arch-independent files
+ii  libreoffice-core                      1:5.2.7-1+deb9u5   amd64   office productivity suite -- arch-dependent files
+ii  libreoffice-draw                      1:5.2.7-1+deb9u5   amd64   office productivity suite -- drawing
+ii  libreoffice-impress                   1:5.2.7-1+deb9u5   amd64   office productivity suite -- presentation
+ii  libreoffice-java-common               1:5.2.7-1+deb9u5   all     office productivity suite -- arch-independent Java support files
 ...
 $
 
@@ -235,8 +235,8 @@ Processing triggers for libc-bin (2.24-11+deb9u4) ...
 
 $
 
-Wow, discounting original installation think that is most I
-have ever installed.
+Wow, discounting original installation that is biggest install
+I've done.
 
 Definitely picked up some LibreOffice dev packages:
 
