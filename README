@@ -19,5 +19,8 @@ libreoffice.txt
 links.txt
   LibreOffice related links
 
+scripts/
+  Scripts
+
 syntax/
   LibreOffice syntax
