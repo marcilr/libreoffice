@@ -16,3 +16,10 @@ https://api.libreoffice.org/docs/install.html
 LibreOffice 6.2 API Documentation
 https://api.libreoffice.org/
 
+LibreOffice 6.2 SDK - Installation Guide - LibreOffice API
+https://api.libreoffice.org/docs/install.html
+
+Libreoffice SDK - Ask Ubuntu
+Has: sudo apt-get install libreoffice-dev*
+https://askubuntu.com/questions/430393/libreoffice-sdk
+
