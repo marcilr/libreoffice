@@ -36,7 +36,70 @@ following variables:
 
 
 Run configuration script:
+$ /usr/lib/libreoffice/sdk/setsdkenv_unix
+
+ ************************************************************************
+ *
+ *  You have to configure your SDK environment first before you can
+ *  use it. The configuration has to be done only once.
+ *
+ ************************************************************************
+
+ Enter the Office installation directory [/usr/lib/libreoffice]: /usr/lib/libreoffice
+ Enter GNU make (3.79.1 or higher) tools directory [/usr/bin]: /usr/bin
+ Enter zip (2.3 or higher) tool directory []: /usr/bin
+ Enter cat tool directory [/bin]: /bin
+ Enter sed tool directory [/bin]: /bin
+ C++ compilers where for example a language binding exist:
+  - Solaris, Sun WorkShop 6 update 1 C++ 5.2 2000/09/11 or higher
+  - Linux, GNU C++ compiler, gcc version 4.0.1 or higher
+  - MacOS, GNU C++ compiler, gcc version 4.0.1 or higher
+ Enter the directory of the C++ compiler, the directory
+ where the compiler is located (optional) [/usr/bin]: /usr/bin
+ Enter Java SDK (1.5, recommendation is 1.6 or higher) \
+ installation directory  (optional) [/usr]: /usr
+    NOTE: java v1.8.0_212 installed at /usr/bin/java
+ Default output directory is in your HOME directory.
+ Enter an existent directory if you prefer a different \
+ output directory (optional) [/home/remarcil]:/home/remarcil
+ Automatic deployment of UNO components (YES/NO) [YES]:YES
+
+ ************************************************************************
+ * ... your SDK environment has been prepared.
+ * For each time you want to use this configured SDK environment, you
+ * have to run the "setsdkenv_unix" script file!
+ * Alternatively can you source one of the scripts
+ *   "/home/remarcil/libreoffice5.2_sdk/debian/setsdkenv_unix.sh"
+ * to get an environment without starting a new shell.
+ ************************************************************************
+
+
+ ************************************************************************
+ *
+ * SDK environment is prepared for Linux
+ *
+ * SDK = /usr/lib/libreoffice/sdk
+ * Office = /usr/lib/libreoffice
+ * Make = /usr/bin
+ * Zip = /usr/bin
+ * cat = /bin
+ * sed = /bin
+ * C++ Compiler = /usr/bin
+ * Java = /usr
+ * SDK Output directory = /home/remarcil/libreoffice5.2_sdk
+ * Auto deployment = YES
+ *
+ ************************************************************************
+
+$
+
+NOTE: To reconfigure use:
+  $ /usr/lib/libreoffice/sdk/setsdkenv_unix --force-configure
+
+
 $ sudo /usr/lib/libreoffice/sdk/setsdkenv_unix.sh
+sudo] password for remarcil: ***
+
 
 
 Links
