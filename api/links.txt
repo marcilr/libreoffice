@@ -24,3 +24,5 @@ Libreoffice SDK - Ask Ubuntu
 Has: sudo apt-get install libreoffice-dev*
 https://askubuntu.com/questions/430393/libreoffice-sdk
 
+Programming LibreOffice
+https://help.libreoffice.org/Common/Programming
