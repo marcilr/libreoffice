@@ -18,3 +18,7 @@ api.txt
 
 links.txt
   LibreOffice API related links
+
+setsdkenv_unix.txt
+  Configure LibreOffice SDK build environment
+
