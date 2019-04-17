@@ -6,6 +6,13 @@ by Raymond E. Marcil <marcilr@gmail.com>
 Scripts
 
 
+python:
+  /usr/lib/libreoffice/share/Scripts/python/
+  /usr/lib/libreoffice/share/Scripts/python/HelloWorld.py
+
+Would be great to get the HelloWorld.py running in libreoffice.
+
+
 1. First launch LibreOffice Calc (Calc for spreadsheet open
 documents) with an open socket to communicate with from the
 shell on your Mac OS :
