@@ -14,6 +14,8 @@ shell on your Mac OS :
 --accept="socket,host=localhost,port=2002;urp;StarOffice.ServiceManager"
 
 soffice: /usr/bin/soffice
+python:  /usr/bin/python
+
 
 Hence:
   $ /usr/bin/soffice --calc \
@@ -21,6 +23,44 @@ Hence:
   $
 
   NOTE: Only runs soffice does not load document.
+
+2. Install Python-UNO package:
+$ apt-cache search Python-Uno
+python3-uno - Python-UNO bridge
+$
+
+$ sudo aptitude install python3-uno
+python3-uno - Python-UNO bridge
+$
+
+$ sudo aptitude install python3-uno 
+python3-uno is already installed at the requested version (1:5.2.7-1+deb9u5)
+python3-uno is already installed at the requested version (1:5.2.7-1+deb9u5)
+...
+$
+
+Python-UNO package is installed already.
+
+
+2. Test python shell:
+$ python
+Python 2.7.13 (default, Sep 26 2018, 18:42:22) 
+[GCC 6.3.0 20170516] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import socket  # only needed on win32-OOo3.0.0
+>>> import uno
+
+
+
+
+
+2. Install libreoffice python related packages:
+$ sudo aptitude install libreoffice-script-provider-python python3-uno 
+
+
+2. Launch the Python shell:
+
+
 
 --First play with the Python shell to get familiar
   http://christopher5106.github.io/office/2015/12/06/openoffice-libreoffice-automate-your-office-tasks-with-python-macros.html
