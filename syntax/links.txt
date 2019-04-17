@@ -8,6 +8,12 @@ Syntax related links
 
 Links
 =====
+convert-to command line parameter
+Useful synyax here
+LibreOffice
+The Document Foundation
+https://ask.libreoffice.org/en/question/2641/convert-to-command-line-parameter/
+
 Creating a Page Style Based on the Current Page
 https://help.libreoffice.org/Writer/Creating_a_Page_Style_Based_on_the_Current_Page
 
