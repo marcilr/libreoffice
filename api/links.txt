@@ -1,0 +1,10 @@
+links.txt
+Created Wed Apr 17 09:45:34 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+LibreOffice API related links
+
+
+Links
+=====
