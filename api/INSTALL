@@ -6,8 +6,36 @@ by Raymond E. Marcil <marcilr@gmail.com>
 Installation of LibreOffice API
 
 
+1. Check current LibreOffice version installed under
+Debian 9.8 amd64:
 
-1. Install Libreoffice SDK:
+$ dpkg -l | grep libre
+...
+ii  libreoffice                           1:5.2.7-1+deb9u5                  amd64        office productivity suite (metapackage)
+ii  libreoffice-avmedia-backend-gstreamer 1:5.2.7-1+deb9u5                  amd64        GStreamer backend for LibreOffice
+ii  libreoffice-base                      1:5.2.7-1+deb9u5                  amd64        office productivity suite -- database
+ii  libreoffice-base-core                 1:5.2.7-1+deb9u5                  amd64        office productivity suite -- shared library
+ii  libreoffice-base-drivers              1:5.2.7-1+deb9u5                  amd64        Database connectivity drivers for LibreOffice
+ii  libreoffice-calc                      1:5.2.7-1+deb9u5                  amd64        office productivity suite -- spreadsheet
+ii  libreoffice-common                    1:5.2.7-1+deb9u5                  all          office productivity suite -- arch-independent files
+ii  libreoffice-core                      1:5.2.7-1+deb9u5                  amd64        office productivity suite -- arch-dependent files
+ii  libreoffice-draw                      1:5.2.7-1+deb9u5                  amd64        office productivity suite -- drawing
+ii  libreoffice-impress                   1:5.2.7-1+deb9u5                  amd64        office productivity suite -- presentation
+ii  libreoffice-java-common               1:5.2.7-1+deb9u5                  all          office productivity suite -- arch-independent Java support files
+...
+$
+
+In LibreOffice calc get version:
+$ libreoffice -calc
+Help > About LibreOffice
+  Version: 5.2.7.2
+  Build ID: 1:5.2.7-1+deb9u5
+  CPU Threads: 1; OS Version: Linux 4.9; UI Render: default; VCL: x11;
+  Locale: en-US (en_US.utf8); Calc: group
+click Close
+
+
+2. Install Libreoffice SDK:
 $ sudo apt-get install libreoffice-dev*
 [sudo] password for remarcil: ***
 Reading package lists... Done
@@ -50,7 +78,7 @@ Setting up libreoffice-dev (1:5.2.7-1+deb9u5) ...
 $
 
 
-2. Install Suggested packages:
+3. Install Suggested packages:
 # sudo aptitude install g++-multilib g++-6-multilib gcc-6-doc \
 libstdc++6-6-dbg gcc-multilib autoconf automake libtool \
 flex bison gdb gcc-doc libmythes-dev libreofficekit-dev \
@@ -219,38 +247,25 @@ ii  libreoffice-dev-doc      1:5.2.7-1+deb9u5   all     office productivity suit
 ii  libreofficekit-dev       1:5.2.7-1+deb9u5   all     LibreOfficeKit -- headers
 $
 
-
 --askubuntu.com/questions/430393/libreoffice-sdk
 
 
+4. JDK (1.5 or higher) required
+A JDK is necessary for developing Java components or applications.
+An appropriate Java SDK can be found on http://java.sun.com/products.
 
-Check current LibreOffice version installed under
-Debian 9.8 amd64:
+Recommendation is to use Java 7 or later for 64bit, and Java 6 for 32bit.
 
-$ dpkg -l | grep libre
-...
-ii  libreoffice                           1:5.2.7-1+deb9u5                  amd64        office productivity suite (metapackage)
-ii  libreoffice-avmedia-backend-gstreamer 1:5.2.7-1+deb9u5                  amd64        GStreamer backend for LibreOffice
-ii  libreoffice-base                      1:5.2.7-1+deb9u5                  amd64        office productivity suite -- database
-ii  libreoffice-base-core                 1:5.2.7-1+deb9u5                  amd64        office productivity suite -- shared library
-ii  libreoffice-base-drivers              1:5.2.7-1+deb9u5                  amd64        Database connectivity drivers for LibreOffice
-ii  libreoffice-calc                      1:5.2.7-1+deb9u5                  amd64        office productivity suite -- spreadsheet
-ii  libreoffice-common                    1:5.2.7-1+deb9u5                  all          office productivity suite -- arch-independent files
-ii  libreoffice-core                      1:5.2.7-1+deb9u5                  amd64        office productivity suite -- arch-dependent files
-ii  libreoffice-draw                      1:5.2.7-1+deb9u5                  amd64        office productivity suite -- drawing
-ii  libreoffice-impress                   1:5.2.7-1+deb9u5                  amd64        office productivity suite -- presentation
-ii  libreoffice-java-common               1:5.2.7-1+deb9u5                  all          office productivity suite -- arch-independent Java support files
-...
+Note: The Java compiler is optional!
+
+Looks like Java v1.8.0_212 is installed on Debian 9.8 vm:
+
+$ java -version
+openjdk version "1.8.0_212"
+OpenJDK Runtime Environment (build 1.8.0_212-8u212-b01-1~deb9u1-b01)
+OpenJDK 64-Bit Server VM (build 25.212-b01, mixed mode)
+remarcil@debian:~/git/apps/libreoffice/api$ 
 $
-
-In LibreOffice calc get version:
-$ libreoffice -calc
-Help > About LibreOffice
-  Version: 5.2.7.2
-  Build ID: 1:5.2.7-1+deb9u5
-  CPU Threads: 1; OS Version: Linux 4.9; UI Render: default; VCL: x11; 
-  Locale: en-US (en_US.utf8); Calc: group
-click Close
 
 
 
