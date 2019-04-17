@@ -1,0 +1,48 @@
+setsdkenv_unix.txt
+Created Wed Apr 17 10:52:51 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Configure LibreOffice SDK build environment
+
+
+
+The SDK provides an implicit configuration mechanism, which configures
+the SDK build environment to your personal needs the first time you use
+the SDK environment.  This configuration step creates a new
+setsdkenv_XXX script in the user's home directory:
+
+$HOME/$OO_SDK_NAME/setsdkenv_unix.sh  -> for Unix
+
+$ locate setsdkenv_unix.sh
+/usr/lib/libreoffice/sdk/setsdkenv_unix.sh
+/usr/lib/libreoffice/sdk/setsdkenv_unix.sh.in
+$
+
+C:\Documents and Settings\<username>\
+\Application Data\%OO_SDK_NAME%\setsdkenv_windows.bat  \
+-> for Windows2000/XP or later
+...
+On UNIX operating systems, the configure script uses Perl.
+LINUX systems should have installed a working Perl version,
+and on Solaris you can find a working Perl version under
+http://www.sunfreeware.com/ if necessary.  On Windows, the
+configure script uses Windows Script and a JScript.  If you
+have problems with Windows Script, you can download a newer
+version of Windows Script.
+
+If you use the template batch file, edit and set the
+following variables:
+
+
+Run configuration script:
+$ sudo /usr/lib/libreoffice/sdk/setsdkenv_unix.sh
+
+
+Links
+=====
+Installation Guide
+LibreOffice
+The Document Foundation
+https://api.libreoffice.org/docs/install.html
+
