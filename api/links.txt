@@ -8,6 +8,11 @@ LibreOffice API related links
 
 Links
 =====
+Installation Guide
+An overview of all necessary installation steps\
+(e.g. environment variables) to use LibreOffice SDK.
+https://api.libreoffice.org/docs/install.html
+
 LibreOffice 6.2 API Documentation
 https://api.libreoffice.org/
 
