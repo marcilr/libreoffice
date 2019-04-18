@@ -111,9 +111,17 @@ Now just need to understand content of the ods file.
 
 Links
 =====
+Definition of the XML formats
+The schema for the OpenDocument formats can be found on
+the www.oasis-open.org web site.
+http://www.oasis-open.org/
+
 Edit Libreoffice-Files from Command Line
 https://askubuntu.com/questions/841970/edit-libreoffice-files-from-command-line
 
 How to pretty print XML from the command line?
 Has "xmllint --format -" from lixml2-utils reference
 https://stackoverflow.com/questions/16090869/how-to-pretty-print-xml-from-the-command-line
+
+XML File Formats
+https://help.libreoffice.org/Common/XML_File_Formats
