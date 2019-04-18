@@ -9,7 +9,22 @@ Convert csv to excel file
 libreoffice --headless --convert-to xlsx <file.csv>
 
 
+
 Example
+=======
+$ libreoffice --headless --convert-to xlsx 00RND.csv 
+convert /home/remarcil/git/dnr/projects/svn-to-git/svntom/\
+trunk/bpu/projects/00RND/tmp/00RND.csv -> \
+/home/remarcil/git/dnr/projects/svn-to-git/svntom/\
+trunk/bpu/projects/00RND/tmp/00RND.xlsx using \
+filter : Calc Office Open XML
+$
+
+--Convert xlsx to csv in Linux with command line
+  https://stackoverflow.com/questions/10557360/convert-xlsx-to-csv-in-linux-with-command-line
+
+
+
 =======
 $ libreoffice --headless --convert-to xlsx LDAPManager.csv
 convert /home/remarcil/git/dnr/projects/svn-to-git/svntom/\
