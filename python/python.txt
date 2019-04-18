@@ -1,0 +1,6 @@
+python.txt
+Created Thu Apr 18 14:19:57 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Python macros
