@@ -22,6 +22,11 @@ https://ask.libreoffice.org/en/question/2641/convert-to-command-line-parameter/
 Creating a Page Style Based on the Current Page
 https://help.libreoffice.org/Writer/Creating_a_Page_Style_Based_on_the_Current_Page
 
+Edit Libreoffice-Files from Command Line              <===
+This page has some great libreoffice document syntax.
+https://askubuntu.com/questions/841970/edit-libreoffice-files-from-command-line
+
+
 Importing and Exporting CSV Files
 https://help.libreoffice.org/Calc/Importing_and_Exporting_CSV_Files
 
