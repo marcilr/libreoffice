@@ -8,6 +8,9 @@ Syntax related links
 
 Links
 =====
+Add Cell and Row in openXML
+https://stackoverflow.com/questions/32308023/add-cell-and-row-in-openxml
+
 Command-line arguments in LibreOffice
 04 December, 2016
 Some useful details here
@@ -26,6 +29,8 @@ Edit Libreoffice-Files from Command Line              <===
 This page has some great libreoffice document syntax.
 https://askubuntu.com/questions/841970/edit-libreoffice-files-from-command-line
 
+How to: Insert text into a cell in a spreadsheet document (Open XML SDK)
+https://msdn.microsoft.com/en-us/library/office/cc861607.aspx
 
 Importing and Exporting CSV Files
 https://help.libreoffice.org/Calc/Importing_and_Exporting_CSV_Files
