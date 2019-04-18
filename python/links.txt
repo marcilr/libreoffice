@@ -1,0 +1,33 @@
+links.txt
+Created Thu Apr 18 14:21:22 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Python macro related links
+
+
+Links
+=====
+A tutorial here:
+Yes, this is by far the best tutorial on Python macros in
+LibreOffice, and it should be given more prominence in the
+official documentation.  I can recommend it wholeheartedly
+to anyone who needs to start programming LibreOffice with
+Python macros. Thank you for writing this.
+steko gravatar imagesteko ( Apr 18 '16 )
+http://christopher5106.github.io/office/2015/12/06/openoffice-libreoffice-automate-your-office-tasks-with-python-macros.html
+
+Detailed tutorial regarding LibreOffice
+to Python macro writing, especially for Calc
+Good question, with answers, looking for info
+on python macros.
+https://ask.libreoffice.org/en/question/49125/detailed-tutorial-regarding-libreoffice-to-python-macro-writing-especially-for-calc/
+
+I made two libreoffice macros on python to rename
+and delete files.  I hope It helps.  Here is the link:
+https://github.com/albcunha/libreoffice_macros
+
+Updating this old and maybe outdated but cross-referenced Q&A
+with a pointer to my (occasionally maintained) LibreOffice
+Scripting link collection.
+https://ask.libreoffice.org/en/question/49125/detailed-tutorial-regarding-libreoffice-to-python-macro-writing-especially-for-calc/
