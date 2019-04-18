@@ -19,6 +19,9 @@ libreoffice.txt
 links.txt
   LibreOffice related links
 
+python/
+  Python macros
+
 scripts/
   Scripts
 
