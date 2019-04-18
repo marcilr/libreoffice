@@ -42,6 +42,13 @@ $
 The expanded content.xml looks very promising.
 Need to improve format of xml for viewing.
 
+
+xmllint
+=======
+xmllint (http://xmlsoft.org/xmllint.html) is a command line XML tool
+and is included in libxml2 (http://xmlsoft.org/).
+--stackoverflow.com/questions/16090869/how-to-pretty-print-xml-from-the-command-line
+
 Use xmllint utility from the libxml2-utils package cleans the xml
 up nicely:
 
