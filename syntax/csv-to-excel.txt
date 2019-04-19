@@ -12,6 +12,13 @@ libreoffice --headless --convert-to xlsx <file.csv>
 
 Example
 =======
+$ soffice --headless --convert-to xlsx:"Calc MS Excel 2007 XML" WPT.csv 
+convert /home/remarcil/git/dnr/projects/svn-to-git/svntom/trunk/\
+bpu/projects/WPT/WPT.csv -> /home/remarcil/git/dnr/projects/\
+svn-to-git/svntom/trunk/bpu/projects/WPT/WPT.xlsx using \
+filter : Calc MS Excel 2007 XML
+$
+
 $ libreoffice --headless --convert-to xlsx 00RND.csv 
 convert /home/remarcil/git/dnr/projects/svn-to-git/svntom/\
 trunk/bpu/projects/00RND/tmp/00RND.csv -> \
