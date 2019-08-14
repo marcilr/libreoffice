@@ -8,6 +8,9 @@ LibreOffice related links
 
 Links
 =====
+Inserting and Editing Tab Stops
+https://help.libreoffice.org/Common/Inserting_and_Editing_Tab_Stops
+
 LibreOffice - Free Office Suite
 https://www.libreoffice.org/
 
